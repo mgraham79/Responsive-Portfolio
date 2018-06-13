@@ -7,7 +7,7 @@ body {
     color: #777;
   
     /* Visual */
-    background: url("../images/concrete_seamless.png");
+    background: url(Assets/Images/concrete_seamless.png);
   }
   
   * {
@@ -328,4 +328,51 @@ body {
     /* Visual */
     border: 0 none;
   }
+
+  @media only screen and (max-width:980px) {
+    .container {
+      width: 75%;
+    }
+    .main-section {
+      width: 620px;
+    }
+    .work {
+      width: 40%;
+    }
+  }
   
+  @media only screen and (max-width:768px) {
+    .container {
+      width: 95%;
+    }
+    .auth-image {
+      width: 350px;
+    }
+  }
+
+  @media only screen and (max-width:640px) {
+    .container {
+      width: 95%;
+    }
+    #masthead {
+      postion: static;
+    }
+    #logo {
+      width: 100%;
+    }
+    #main-container {
+      padding: 0px;
+      width: 90%;
+    }
+    nav {
+      clear: both;
+      float: none; 
+      text-align: center;
+    }
+    .auth-image {
+      width: 100%;
+    }
+    .work {
+      width: 100%;
+    }
+  }
